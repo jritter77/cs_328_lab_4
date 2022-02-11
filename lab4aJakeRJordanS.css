@@ -1,0 +1,34 @@
+/* Jake Ritter and Jordan Grace-Reyna-Sanchez */
+
+#floating_block {
+  float: left;
+  width: 400px;
+  height: 400px;
+  background: red;
+}
+
+#cleared_block {
+  clear: left;
+  width: 400px;
+  height: 400px;
+  background: blue;
+}
+
+#relative_p {
+  position: relative;
+  left: 128px;
+  top: 64px;
+  background: pink;
+}
+
+#absolute_p {
+  position: absolute;
+  background: cyan;
+}
+
+#fixed_p {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  background: orange;
+}

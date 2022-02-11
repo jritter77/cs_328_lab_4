@@ -1,0 +1,52 @@
+/* Jake Ritter and Jordan Grace-Reyna-Sanchez */
+
+form {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  padding: 64px;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 0px 0px 3px cyan;
+}
+
+#check_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 480px;
+  gap: 16px;
+}
+
+select {
+  width: 240px;
+}
+
+input[type="submit"] {
+  width: 128px;
+  margin-top: 16px;
+}
+
+input[type="reset"] {
+  width: 128px;
+  margin-top: 16px;
+}
+
+textarea {
+  transition: all 2s;
+  width: 50%;
+  height: 32px;
+}
+
+textarea:focus {
+  width: 100%;
+  height: 128px;
+}
+
+#text_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 480px;
+  gap: 16px;
+}

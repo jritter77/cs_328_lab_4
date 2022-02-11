@@ -1,0 +1,102 @@
+<!-- Jake Ritter and Jordan Grace-Reyna-Sanchez -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Lab 4 b</title>
+    <meta charset="utf-8" />
+
+    <link
+      href="http://users.humboldt.edu/smtuttle/styles/normalize.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./lab4bJakeRJordanS.css" />
+  </head>
+
+  <body>
+    <form action="">
+      <h2>General Problems Auto Insurance Claim Form</h2>
+
+      <div id="text_grid">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" />
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" />
+
+        <label for="tel">Tel Number</label>
+        <input type="tel" id="tel" />
+      </div>
+
+      <p>Please identify your gender</p>
+
+      <div>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" />
+      </div>
+
+      <div>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+      </div>
+
+      <p>Please indicate the nature of the damage done to your vehicle</p>
+
+      <div id="check_grid">
+        <div>
+          <label for="body">Body damage:</label>
+          <input type="checkbox" id="body" name="body" />
+        </div>
+
+        <div>
+          <label for="windscreen">Windscreen damage:</label>
+          <input type="checkbox" id="windscreen" name="windscreen" />
+        </div>
+
+        <div>
+          <label for="bumper">Bumper damage:</label>
+          <input type="checkbox" id="bumper" name="bumper" />
+        </div>
+
+        <div>
+          <label for="engine">Engine damage:</label>
+          <input type="checkbox" id="engine" name="engine" />
+        </div>
+
+        <div>
+          <label for="interior">Interior damage:</label>
+          <input type="checkbox" id="interior" name="interior" />
+        </div>
+
+        <div>
+          <label for="tire">Tire damage:</label>
+          <input type="checkbox" id="tire" name="tire" />
+        </div>
+      </div>
+
+      <p>
+        Please write in full detail the beginning of the incident to the end
+      </p>
+
+      <textarea name="summary" id="summary" cols="100" rows="5"></textarea>
+
+      <p>Choose the type of insurance coverage you would like to have</p>
+
+      <select name="coverage">
+        <option value="Full Premium">Full Premium</option>
+        <option value="Full Coverage">Full Coverage</option>
+        <option value="Partial Coverage">Partial Coverage</option>
+        <option value="Minimum Coverage">Minimum Coverage</option>
+        <option value="No Coverage">No Coverage</option>
+      </select>
+
+      <input type="submit" id="submit" />
+      <input type="reset" id="reset" />
+    </form>
+  </body>
+</html>
